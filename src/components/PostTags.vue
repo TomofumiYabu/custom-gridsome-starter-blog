@@ -1,7 +1,7 @@
 <template>
-   <div class="post-tags">
+   <div>
    		<g-link class="post-tags__link" v-for="tag in post.tags" :key="tag.id" :to="tag.path">
-   			<span>#</span> {{ tag.title }}
+   			<v-chip><span>#</span> {{ tag.title }} </v-chip>
    		</g-link>
     </div>
 </template>
@@ -21,8 +21,6 @@ export default {
   	font-size: .8em;
   	color: currentColor;
   	text-decoration: none;
-  	background-color: var(--bg-color);
-  	color: currentColor!important; //Todo: remove important;
   	padding: .5em;
   	border-radius: var(--radius);
   }

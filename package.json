@@ -11,10 +11,12 @@
     "@gridsome/remark-prismjs": "^0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.3.0",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "vuetify": "^2.2.32"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "webpack-node-externals": "^1.7.2"
   }
 }
